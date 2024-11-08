@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+// Import des variables initiales de Bulma
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+// Personnalisez vos variables Bulma ici si nécessaire
+// $primary: #YOUR-COLOR;
+
+// Import du reste de Bulma
+@import "bulma/bulma";
+
+// Vos styles personnalisés ici

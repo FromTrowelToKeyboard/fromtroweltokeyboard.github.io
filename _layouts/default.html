@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ '/' | relative_url }}">
+                {{ site.title }}
+            </a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            {{ content }}
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        </div>
+    </footer>
+</body>
+</html>
