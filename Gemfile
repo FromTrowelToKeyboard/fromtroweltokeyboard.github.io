@@ -7,13 +7,10 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-# Utilisez la dernière version de jekyll-sass-converter qui supporte Dart Sass
 gem "jekyll-sass-converter", "~> 3.0"
 
-# Incluez sass-embedded pour utiliser Dart Sass
 gem "sass-embedded"
 
-# Les autres gemmes restent inchangées
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
